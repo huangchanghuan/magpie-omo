@@ -53,10 +53,22 @@ node set-plan.mjs plan-economy    # 经济（DeepSeek-Flash 打天下）
 
 ## 安装 / 卸载
 
+**方式一（推荐，PR 合并后可用）**：直接用 magpie 命令逐个安装（或在其 Plugins 页点装）。安装本体从头到尾就是 magpie 命令：
+
 ```shell
-./install.sh     # 迁移 omo.jsonc + 安装 23 行（重复运行安全）
-./uninstall.sh   # 移除插件行；omo.jsonc 不自动还原，备份在 ~/.omo/omo.jsonc.bak.magpie-omo-*
+magpie plugin add @magpie-community/agent-omo-sisyphus   # 23 个包同理
 ```
+
+**方式二（克隆本仓库自装）**：`install.sh` 只是个循环包装 + 一件 magpie 干不了的事：
+
+```shell
+./install.sh     # = migrate-omo-jsonc.mjs（迁移 omo.jsonc）+ 循环执行 magpie plugin add packages/omo-*
+./uninstall.sh   # = 循环执行 magpie plugin rm（只认安装时路径，脚本帮你记住）
+```
+
+其中 `migrate-omo-jsonc.mjs` 把老配置 `[opencode]`/`[native]` 分节里的分配迁到顶层（自动备份、校验失败不落盘）——这是纯文本手术，magpie 没有对应命令；不迁移的话分节优先级高于顶层，插件写入会被覆盖。`uninstall.sh` 存在是因为 `magpie plugin rm` 实测只认安装时的路径参数，对本地路径装的 23 个包，脚本帮你按原路径循环移除。
+
+卸载后 omo.jsonc 不自动还原，备份在 `~/.omo/omo.jsonc.bak.magpie-omo-*`。
 
 ## 注意
 
