@@ -1,0 +1,9 @@
+{
+  "name": "magpie-omo-ultrabrain",
+  "version": "0.1.0",
+  "description": "Magpie agent row: OmO · Ultrabrain — oh-my-openagent 类别（超深思考：难题攻坚）",
+  "type": "module",
+  "magpie": {
+    "agent": "./agent.js"
+  }
+}

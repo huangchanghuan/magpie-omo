@@ -1,0 +1,9 @@
+{
+  "name": "magpie-omo-hephaestus",
+  "version": "0.1.0",
+  "description": "Magpie agent row: OmO · Hephaestus — oh-my-openagent agent（深度自主工作者（omo 只允许 GPT 系））",
+  "type": "module",
+  "magpie": {
+    "agent": "./agent.js"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "magpie-omo-multimodal-looker",
+  "version": "0.1.0",
+  "description": "Magpie agent row: OmO · Multimodal Looker — oh-my-openagent agent（多模态看图：截图、设计稿）",
+  "type": "module",
+  "magpie": {
+    "agent": "./agent.js"
+  }
+}

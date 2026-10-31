@@ -1,0 +1,9 @@
+{
+  "name": "magpie-omo-metis",
+  "version": "0.1.0",
+  "description": "Magpie agent row: OmO · Metis — oh-my-openagent agent（预规划顾问：澄清模糊需求）",
+  "type": "module",
+  "magpie": {
+    "agent": "./agent.js"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "magpie-omo-sisyphus-junior",
+  "version": "0.1.0",
+  "description": "Magpie agent row: OmO · Sisyphus Junior — oh-my-openagent agent（执行子 agent：不委派、纯干活）",
+  "type": "module",
+  "magpie": {
+    "agent": "./agent.js"
+  }
+}

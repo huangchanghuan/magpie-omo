@@ -1,0 +1,9 @@
+{
+  "name": "magpie-omo-deep-low",
+  "version": "0.1.0",
+  "description": "Magpie agent row: OmO · Deep Low — oh-my-openagent 类别（深度任务低配档）",
+  "type": "module",
+  "magpie": {
+    "agent": "./agent.js"
+  }
+}

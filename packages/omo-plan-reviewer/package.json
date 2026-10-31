@@ -1,0 +1,9 @@
+{
+  "name": "magpie-omo-plan-reviewer",
+  "version": "0.1.0",
+  "description": "Magpie agent row: OmO · Plan Reviewer — oh-my-openagent agent（计划评审（native））",
+  "type": "module",
+  "magpie": {
+    "agent": "./agent.js"
+  }
+}

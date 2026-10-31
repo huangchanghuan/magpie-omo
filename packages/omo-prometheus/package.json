@@ -1,0 +1,9 @@
+{
+  "name": "magpie-omo-prometheus",
+  "version": "0.1.0",
+  "description": "Magpie agent row: OmO · Prometheus — oh-my-openagent agent（plan 模式写计划：长结构化输出）",
+  "type": "module",
+  "magpie": {
+    "agent": "./agent.js"
+  }
+}

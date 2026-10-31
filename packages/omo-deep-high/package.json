@@ -1,0 +1,9 @@
+{
+  "name": "magpie-omo-deep-high",
+  "version": "0.1.0",
+  "description": "Magpie agent row: OmO · Deep High — oh-my-openagent 类别（深度任务高配档）",
+  "type": "module",
+  "magpie": {
+    "agent": "./agent.js"
+  }
+}

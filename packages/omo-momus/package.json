@@ -1,0 +1,9 @@
+{
+  "name": "magpie-omo-momus",
+  "version": "0.1.0",
+  "description": "Magpie agent row: OmO · Momus — oh-my-openagent agent（计划评审/挑刺：要严格逻辑）",
+  "type": "module",
+  "magpie": {
+    "agent": "./agent.js"
+  }
+}

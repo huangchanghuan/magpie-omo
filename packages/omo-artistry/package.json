@@ -1,0 +1,9 @@
+{
+  "name": "magpie-omo-artistry",
+  "version": "0.1.0",
+  "description": "Magpie agent row: OmO · Artistry — oh-my-openagent 类别（创意/写作类请求）",
+  "type": "module",
+  "magpie": {
+    "agent": "./agent.js"
+  }
+}

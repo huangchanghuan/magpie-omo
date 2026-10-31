@@ -1,0 +1,9 @@
+{
+  "name": "magpie-omo-oracle",
+  "version": "0.1.0",
+  "description": "Magpie agent row: OmO · Oracle — oh-my-openagent agent（顾问：难题咨询、方案评审）",
+  "type": "module",
+  "magpie": {
+    "agent": "./agent.js"
+  }
+}

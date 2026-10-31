@@ -1,0 +1,9 @@
+{
+  "name": "magpie-omo-sisyphus",
+  "version": "0.1.0",
+  "description": "Magpie agent row: OmO · Sisyphus — oh-my-openagent agent（主控 agent：全程在线、写码、扛长上下文）",
+  "type": "module",
+  "magpie": {
+    "agent": "./agent.js"
+  }
+}

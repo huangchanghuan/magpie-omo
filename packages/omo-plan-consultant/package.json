@@ -1,0 +1,9 @@
+{
+  "name": "magpie-omo-plan-consultant",
+  "version": "0.1.0",
+  "description": "Magpie agent row: OmO · Plan Consultant — oh-my-openagent agent（预规划顾问（native））",
+  "type": "module",
+  "magpie": {
+    "agent": "./agent.js"
+  }
+}

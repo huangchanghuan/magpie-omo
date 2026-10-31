@@ -1,0 +1,9 @@
+{
+  "name": "magpie-omo-unspecified-high",
+  "version": "0.1.0",
+  "description": "Magpie agent row: OmO · Unspecified High — oh-my-openagent 类别（未分类请求·高配兜底）",
+  "type": "module",
+  "magpie": {
+    "agent": "./agent.js"
+  }
+}

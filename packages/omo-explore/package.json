@@ -1,0 +1,9 @@
+{
+  "name": "magpie-omo-explore",
+  "version": "0.1.0",
+  "description": "Magpie agent row: OmO · Explore — oh-my-openagent agent（快速探索：找文件、搜代码）",
+  "type": "module",
+  "magpie": {
+    "agent": "./agent.js"
+  }
+}

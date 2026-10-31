@@ -1,0 +1,9 @@
+{
+  "name": "magpie-omo-atlas",
+  "version": "0.1.0",
+  "description": "Magpie agent row: OmO · Atlas — oh-my-openagent agent（总编排：判断力优先、输出短）",
+  "type": "module",
+  "magpie": {
+    "agent": "./agent.js"
+  }
+}

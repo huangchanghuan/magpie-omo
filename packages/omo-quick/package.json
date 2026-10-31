@@ -1,0 +1,9 @@
+{
+  "name": "magpie-omo-quick",
+  "version": "0.1.0",
+  "description": "Magpie agent row: OmO · Quick — oh-my-openagent 类别（快速问答、小任务）",
+  "type": "module",
+  "magpie": {
+    "agent": "./agent.js"
+  }
+}

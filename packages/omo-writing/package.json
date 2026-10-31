@@ -1,0 +1,9 @@
+{
+  "name": "magpie-omo-writing",
+  "version": "0.1.0",
+  "description": "Magpie agent row: OmO · Writing — oh-my-openagent 类别（长文写作）",
+  "type": "module",
+  "magpie": {
+    "agent": "./agent.js"
+  }
+}

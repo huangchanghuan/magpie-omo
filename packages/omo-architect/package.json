@@ -1,0 +1,9 @@
+{
+  "name": "magpie-omo-architect",
+  "version": "0.1.0",
+  "description": "Magpie agent row: OmO · Architect — oh-my-openagent 类别（架构设计类请求）",
+  "type": "module",
+  "magpie": {
+    "agent": "./agent.js"
+  }
+}

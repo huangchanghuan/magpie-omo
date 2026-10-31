@@ -1,0 +1,9 @@
+{
+  "name": "magpie-omo-visual-engineering",
+  "version": "0.1.0",
+  "description": "Magpie agent row: OmO · Visual Engineering — oh-my-openagent 类别（视觉工程：UI、图表）",
+  "type": "module",
+  "magpie": {
+    "agent": "./agent.js"
+  }
+}
